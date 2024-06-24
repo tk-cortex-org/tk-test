@@ -1,0 +1,9 @@
+apiVersion: v2
+name: brazen
+
+version: 1.0.0
+
+dependencies:
+  - name: k8s-deployment
+    version: 9.0.0
+    repository: https://internal.repo.life360.com/repository/helm_charts/
